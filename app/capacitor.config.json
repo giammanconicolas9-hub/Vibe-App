@@ -1,0 +1,24 @@
+{
+  "appId": "com.localrequest.app",
+  "appName": "LocalRequest",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    },
+    "Geolocation": {
+      "enabled": true
+    }
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "",
+      "keystoreAlias": "",
+      "keystorePassword": "",
+      "keystoreKeyPassword": ""
+    }
+  }
+}
